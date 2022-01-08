@@ -21,6 +21,10 @@ PRODUCT_AAPT_CONFIG := large
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
+# ConfigStore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
