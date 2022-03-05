@@ -87,6 +87,7 @@
         <device name="SND_DEVICE_OUT_WIFI_CALL_DEX_SPEAKER_EVS" backend="speaker" interface="PRI_TDM_RX_0"/>
         <device name="SND_DEVICE_OUT_VOIP_COMM_SPEAKER" backend="speaker" interface="PRI_TDM_RX_0"/>
         <device name="SND_DEVICE_OUT_VOIP_COMM_DEX_SPEAKER" backend="speaker" interface="PRI_TDM_RX_0"/>
+        <device name="SND_DEVICE_OUT_VOIP_COMM_TV_SPEAKER" backend="speaker" interface="PRI_TDM_RX_0"/>
         <device name="SND_DEVICE_OUT_VOIP_FMC_SPEAKER" backend="speaker" interface="PRI_TDM_RX_0"/>
         <device name="SND_DEVICE_OUT_VOIP_FMC_DEX_SPEAKER" backend="speaker" interface="PRI_TDM_RX_0"/>
         <device name="SND_DEVICE_OUT_LOOPBACK_SPEAKER" backend="speaker" interface="PRI_TDM_RX_0"/>
@@ -224,6 +225,7 @@
         <device name="SND_DEVICE_IN_CAMCORDER_MIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_CAMCORDER_STEREO_MIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_CAMCORDER_MULTI_MIC" interface="TX_CDC_DMA_TX_3"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_MULTI_AND_BT_MIC" interface="TX_CDC_DMA_TX_3"/>
 
         <device name="SND_DEVICE_IN_REC_SUB_MIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_REC_SUB_MIC_KARAOKE" interface="TX_CDC_DMA_TX_3"/>
@@ -241,6 +243,7 @@
         <device name="SND_DEVICE_IN_WIFI_CALL_DEX_SPEAKER_MIC_EVS" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_VOIP_COMM_SPEAKER_MIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_VOIP_COMM_DEX_SPEAKER_MIC" interface="TX_CDC_DMA_TX_3"/>
+        <device name="SND_DEVICE_IN_VOIP_COMM_TV_SPEAKER_MIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_VOIP_FMC_SPEAKER_MIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_VOIP_FMC_DEX_SPEAKER_MIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_VOIP_GAMING_SPEAKER_MIC" interface="TX_CDC_DMA_TX_3"/>

@@ -97,7 +97,6 @@ vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/camera.unihal.default.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
-vendor/lib/hw/vendor.samsung.hardware.snap@1.1-impl.so
 vendor/lib/hw/vendor.samsung.hardware.snap@1.2-impl.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib64/camera/com.qti.tuned.default.bin
@@ -183,7 +182,6 @@ vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/camera.unihal.default.so
 vendor/lib64/hw/com.qti.chi.override.so
 vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
-vendor/lib64/hw/vendor.samsung.hardware.snap@1.1-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.snap@1.2-impl.so
 
 # Fingerprint
@@ -195,9 +193,7 @@ vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
 
 # Keystore
 vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
-vendor/bin/keymasterd
 vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc
-vendor/etc/init/keymasterd.rc
 vendor/etc/permissions/android.hardware.strongbox_keystore.xml
 vendor/lib/libkeymasterdeviceutils.so
 vendor/lib/libkeymasterutils.so
