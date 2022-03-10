@@ -17,10 +17,6 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 3200
 TARGET_SCREEN_WIDTH := 1440
 
-PRODUCT_AAPT_CONFIG := large
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
-PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
-
 # ConfigStore
 PRODUCT_PACKAGES += \
     disable_configstore
