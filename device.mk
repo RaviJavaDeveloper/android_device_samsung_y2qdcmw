@@ -14,8 +14,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 3200
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
 
 # ConfigStore
 PRODUCT_PACKAGES += \
@@ -43,4 +43,5 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/y2qdcmw/y2qdcmw-vendor.mk)
+$(call inherit-product, vendor/samsung/r8q/r8q-vendor.mk)
+

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_y2qdcmw.mk
+    $(LOCAL_DIR)/aosp_r8q.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_y2qdcmw-eng \
-    lineage_y2qdcmw-user \
-    lineage_y2qdcmw-userdebug
+    aosp_r8q-eng \
+    aosp_r8q-user \
+    aosp_r8q-userdebug

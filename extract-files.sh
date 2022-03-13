@@ -13,7 +13,7 @@ fi
 
 set -e
 
-export DEVICE=y2qdcmw
+export DEVICE=r8q
 export DEVICE_COMMON=sm8250-common
 export VENDOR=samsung
 
