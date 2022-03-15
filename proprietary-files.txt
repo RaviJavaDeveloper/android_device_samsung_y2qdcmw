@@ -175,6 +175,8 @@ vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so
 
 # Keystore
+vendor/bin/hw/android.hardware.keymaster@4.0-service
+vendor/etc/init/android.hardware.keymaster@4.0-service.rc
 vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-strongbox-service-qti.rc
 vendor/etc/permissions/android.hardware.strongbox_keystore.xml
@@ -188,6 +190,20 @@ vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 -vendor/lib64/libskeymaster4device.so
 vendor/lib64/libspcom.so
+
+#More
+system/lib/android.hardware.keymaster@3.0.so
+system/lib64/android.hardware.keymaster@3.0.so
+system/lib/android.hardware.keymaster@4.0.so
+system/lib64/android.hardware.keymaster@4.0.so
+system/lib/android.hardware.keymaster@4.1.so
+system/lib64/android.hardware.keymaster@4.1.so
+vendor/lib64/libkeymaster_messages.so
+vendor/lib64/libkeymaster_portable.so
+vendor/lib64/libkeymaster4support.so
+vendor/lib64/libkeymaster4_1support.so
+vendor/lib64/libkeymaster4.so
+vendor/lib64/libpuresoftkeymasterdevice.so
 
 # Light
 vendor/bin/hw/vendor.samsung.hardware.light-service

@@ -67,3 +67,6 @@ odm	/odm	ext4	ro	wait,avb,logical,first_stage_mount
 /dev/block/bootdevice/by-name/keydata	/keydata	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic,inlinecrypt	wait,check,encryptable,nofail
 # /dev/block/bootdevice/by-name/keyrefuge	/keyrefuge	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic,inlinecrypt	wait,check,fileencryption=ice,nofail
 /dev/block/bootdevice/by-name/keyrefuge	/keyrefuge	ext4	noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic,inlinecrypt	wait,check,encryptable,nofail
+
+# Boot Image
+/dev/block/bootdevice/by-name/boot                      /boot                  emmc    defaults                                             defaults
